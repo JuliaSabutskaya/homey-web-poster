@@ -1,0 +1,13 @@
+@import "1920x1080.css";
+@import "1536x900.css";
+@import "834x1194.css";
+@import "390x844.css";
+
+
+
+
+
+@font-face {
+    font-family: "TTChocolatesEducationalDemiBold";
+    src: url("font/TTChocolatesEducationalDemiBold.otf");
+  }

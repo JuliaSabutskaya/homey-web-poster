@@ -1,0 +1,1350 @@
+@media (max-width: 390px) {
+    * {
+        font-family: TTChocolatesEducationalDemiBold;
+        font-weight: 400;
+        color: white;
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+    }
+
+    /* оставь стахи на чердаке */
+    .attic {
+        width: 100%;
+        position: relative;
+    }
+
+    .text_attic {
+        position: absolute;
+        width: 100%;
+        z-index: 2;
+    }
+
+    /* стили глаз */
+    .glaz {
+        width: 337px;
+        height: 337px;
+        display: block;
+        position: relative;
+        background: url('./images/eye/eye.svg');
+    }
+
+    .eye {
+        width: 337px;
+        height: 337px;
+        position: absolute;
+        scale: 0.4;
+        margin-top: -38px;
+        margin-left: -88px;
+        rotate: 347deg;
+        z-index: 1;
+        animation: eye 5s linear infinite;
+    }
+
+    .eye_1-1 {
+        width: 337px;
+        height: 337px;
+        position: absolute;
+        scale: 0.4;
+        margin-top: -70px;
+        margin-left: 144px;
+        rotate: -347deg;
+        z-index: 1;
+        animation: eye_1-1 5s linear infinite;
+    }
+
+    .eye_2 {
+        width: 507px;
+        height: 507px;
+        position: absolute;
+        scale: 0.3;
+        margin-top: -355px;
+        margin-left: -163px;
+        rotate: 349deg;
+        z-index: -1;
+        animation: eye_2 5s linear infinite;
+    }
+
+    .eye_2-1 {
+        width: 337px;
+        height: 337px;
+        position: absolute;
+        scale: 0.4;
+        margin-top: -262px;
+        margin-left: 141px;
+        z-index: -1;
+        animation: eye_2-1 5s linear infinite;
+    }
+
+    .eye_2-2 {
+        width: 337px;
+        height: 337px;
+        position: absolute;
+        scale: 0.4;
+        margin-top: -137px;
+        margin-left: 97px;
+        rotate: 6deg;
+        z-index: -1;
+        animation: eye_2-2 5s linear infinite;
+    }
+
+    .eye_3 {
+        width: 337px;
+        height: 337px;
+        position: absolute;
+        scale: 0.6;
+        margin-top: -128px;
+        margin-left: -64px;
+        rotate: 344deg;
+        animation: eye_3 5s linear infinite;
+    }
+
+    .eye_3-1 {
+        width: 337px;
+        height: 337px;
+        position: absolute;
+        scale: 0.6;
+        margin-top: -166px;
+        margin-left: 91px;
+        rotate: 17deg;
+        animation: eye_3-1 5s linear infinite;
+    }
+
+    .glaz2 {
+        width: 507px;
+        height: 500px;
+        display: block;
+        position: relative;
+        background: url('./images/eye/eye2.svg');
+    }
+
+    .mig {
+        animation: mig 1.5s steps(1) infinite;
+    }
+
+    .mig1-1 {
+        animation: mig 1.5s steps(1) infinite;
+        animation-delay: 0.6s;
+    }
+
+    .mig2 {
+        animation: mig2 1.5s steps(1) infinite;
+    }
+
+    .mig2-1 {
+        animation: mig 1.5s steps(1) infinite;
+        animation-delay: 0.6s;
+    }
+
+    .mig2-2 {
+        animation: mig 1.5s steps(1) infinite;
+        animation-delay: 0.3s;
+    }
+
+    .mig3 {
+        animation: mig 1.5s steps(1) infinite;
+        animation-delay: 0.3s;
+    }
+
+    /* анимация глаз */
+    @keyframes mig {
+        0% {
+            background-position: 0px top;
+        }
+
+        50% {
+            background-position: -337px top;
+        }
+
+        55% {
+            background-position: -674px top;
+        }
+
+        60% {
+            background-position: -1011px top;
+        }
+
+        65% {
+            background-position: 0px top;
+        }
+
+        80% {
+            background-position: -337px top;
+        }
+
+        85% {
+            background-position: -674px top;
+        }
+
+        90% {
+            background-position: -1011px top;
+        }
+    }
+
+    @keyframes mig2 {
+        0% {
+            background-position: 0px top;
+        }
+
+        50% {
+            background-position: -507px top;
+        }
+
+        55% {
+            background-position: -1014px top;
+        }
+
+        60% {
+            background-position: -1521px top;
+        }
+
+        65% {
+            background-position: 0px top;
+        }
+
+        80% {
+            background-position: -507px top;
+        }
+
+        85% {
+            background-position: -1014px top;
+        }
+
+        90% {
+            background-position: -1521px top;
+        }
+    }
+
+    /* лента с одеждой */
+    .sweaters_k {
+
+        position: absolute;
+        margin-top: 81px;
+        height: 520px;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .sweaters_k img {
+
+        position: absolute;
+        left: 0;
+        top: 0;
+
+        animation: sweaters_k 25s linear infinite;
+        animation-play-state: running;
+        animation-delay: -9s;
+    }
+
+    .sweaters {
+        overflow: hidden;
+        scale: 0.6;
+        opacity: 1;
+        filter: alpha (opacity=100);
+    }
+
+    .sweaters:hover {
+        opacity: 0;
+        filter: alpha (opacity=0);
+    }
+
+    .sweaters-2 {
+        overflow: hidden;
+        scale: 0.6;
+        margin-top: 4px;
+        opacity: 0;
+        filter: alpha (opacity=0);
+    }
+
+    .sweaters-2:hover {
+        opacity: 1;
+        filter: alpha (opacity=100);
+    }
+
+    @keyframes sweaters_k {
+        0% {
+            transform: translateX(0%);
+        }
+
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+
+    /* стили больших блоков */
+    .big-block {
+        width: 100%;
+    }
+
+    .circle {
+        width: 353px;
+        height: 384px;
+        display: block;
+        position: relative;
+        background: url('./images/block1.svg');
+    }
+
+    .block1 {
+        scale: 1.01;
+        height: 384px;
+        position: absolute;
+        margin-top: 499px;
+        margin-left: 17px;
+        animation: block1 10s linear infinite;
+    }
+
+    .tag {
+        animation: tag 5s steps(1) infinite;
+    }
+
+    @keyframes tag {
+        0% {
+            background-position: 0px top;
+        }
+
+        5% {
+            background-position: -353px top;
+        }
+
+        10% {
+            background-position: -706px top;
+        }
+
+        15% {
+            background-position: -1059px top;
+        }
+
+        20% {
+            background-position: -1412px top;
+        }
+
+        25% {
+            background-position: -1765px top;
+        }
+
+        30% {
+            background-position: -2118px top;
+        }
+
+        35% {
+            background-position: -2471px top;
+        }
+
+        40% {
+            background-position: -2824px top;
+        }
+
+        45% {
+            background-position: -3177px top;
+        }
+
+        50% {
+            background-position: -3530px top;
+        }
+
+        55% {
+            background-position: -3883px top;
+        }
+
+        60% {
+            background-position: -4236px top;
+        }
+
+        65% {
+            background-position: -4589px top;
+        }
+
+        70% {
+            background-position: -4942px top;
+        }
+
+        75% {
+            background-position: -5295px top;
+        }
+
+        80% {
+            background-position: -5648px top;
+        }
+
+        85% {
+            background-position: -6001px top;
+        }
+
+        90% {
+            background-position: -6354px top;
+        }
+    }
+
+    .block3-all {
+        scale: 0.6;
+        margin-top: 355px;
+        margin-left: 10px;
+    }
+
+    .block3 {
+        position: absolute;
+        margin-top: 1334px;
+        margin-left: -1px;
+        rotate: 0deg;
+        animation: block3 2s infinite;
+    }
+
+    @keyframes block3 {
+        0% {
+            transform: scale3d(1, 1, 1);
+        }
+
+        50% {
+            transform: scale3d(0.95, 0.95, 0.95);
+        }
+
+        100% {
+            transform: scale3d(1, 1, 1);
+        }
+    }
+
+    .block3-1 {
+        position: absolute;
+        margin-left: 2px;
+        margin-top: 1338px;
+        rotate: 0deg;
+        opacity: 1;
+    }
+
+    .block3-1_1 {
+        position: absolute;
+        margin-left: 2px;
+        margin-top: 1338px;
+        rotate: 0deg;
+        opacity: 0;
+    }
+
+    .block3-1:hover {
+        opacity: 0;
+        filter: alpha (opacity=0);
+    }
+
+    .block3-1_1:hover {
+        opacity: 1;
+        filter: alpha (opacity=100);
+    }
+
+    .block3-2 {
+        position: absolute;
+        margin-top: 1336px;
+        margin-left: 5px;
+        z-index: -1;
+        rotate: 0deg;
+        animation: block3-2 5s linear infinite
+    }
+
+    @keyframes block3-2 {
+        0% {
+            transform: translate3d(0, 0, 0);
+        }
+
+        2%,
+        6%,
+        10%,
+        14%,
+        18%,
+        22%,
+        26%,
+        30%,
+        34%,
+        38%,
+        42%,
+        48%,
+        52%,
+        56%,
+        60%,
+        64%,
+        68%,
+        72%,
+        76%,
+        80% {
+            transform: translate3d(-7px, 0, 0);
+        }
+
+        4%,
+        8%,
+        12%,
+        16%,
+        20%,
+        24%,
+        28%,
+        32%,
+        36%,
+        40%,
+        46%,
+        50%,
+        54%,
+        58%,
+        62%,
+        66%,
+        70%,
+        74%,
+        78%,
+        82% {
+            transform: translate3d(7px, 0, 0);
+        }
+    }
+
+    .block3-3 {
+        position: absolute;
+        margin-top: 1335px;
+        margin-left: -1px;
+        z-index: -1;
+        rotate: 0deg;
+        animation: block3-3 9s linear infinite
+    }
+
+    @keyframes block3-3 {
+        0% {
+            opacity: 100%;
+        }
+
+        10% {
+            opacity: 50%;
+        }
+
+        20% {
+            opacity: 100%;
+        }
+
+        30% {
+            opacity: 50%;
+        }
+
+        40% {
+            opacity: 100%;
+        }
+
+        50% {
+            opacity: 50%;
+        }
+
+        60% {
+            opacity: 100%;
+        }
+
+        70% {
+            opacity: 50%;
+        }
+
+        80% {
+            opacity: 100%;
+        }
+
+        90% {
+            opacity: 50%;
+        }
+    }
+
+    .block2-all {
+        margin-left: 14px;
+        margin-top: -892px;
+        scale: 1.1;
+    }
+
+    .block2-1 {
+        position: absolute;
+        margin-top: 1626px;
+        margin-left: 19px;
+        animation: block2-1 5s linear infinite;
+        animation-delay: 1s;
+    }
+
+    .block2-1:hover {
+        animation: none;
+    }
+
+    @keyframes block2-1 {
+        0% {
+            transform: translate3d(0, 0, 0);
+        }
+
+        2%,
+        6%,
+        10%,
+        14%,
+        18%,
+        22%,
+        26%,
+        30%,
+        34%,
+        38%,
+        42%,
+        48%,
+        52%,
+        56%,
+        60%,
+        64%,
+        68%,
+        72%,
+        76%,
+        80%,
+        84%,
+        88% {
+            transform: translate3d(0, -7px, 0);
+        }
+
+        4%,
+        8%,
+        12%,
+        16%,
+        20%,
+        24%,
+        28%,
+        32%,
+        36%,
+        40%,
+        46%,
+        50%,
+        54%,
+        58%,
+        62%,
+        66%,
+        70%,
+        74%,
+        78%,
+        82%,
+        86%,
+        90% {
+            transform: translate3d(0, 7px, 0);
+        }
+    }
+
+    .block2 {
+        position: absolute;
+        margin-top: 1626px;
+        margin-left: 19px;
+        opacity: 1;
+        animation: block2 1.5s infinite;
+    }
+
+    .block2_2 {
+        position: absolute;
+        margin-top: 1626px;
+        margin-left: 19px;
+        opacity: 0;
+    }
+
+    .block2:hover {
+        opacity: 0;
+    }
+
+    .block2_2:hover {
+        opacity: 1;
+    }
+
+    .block4_k {
+        overflow: hidden;
+        z-index: 1;
+    }
+
+    .block4 {
+        width: 450px;
+        overflow: hidden;
+        scale: 0.6;
+        margin-top: 1466px;
+        margin-left: -55px;
+        animation: block4 1.5s infinite;
+
+    }
+
+    @keyframes block4 {
+        0% {
+            transform: scale3d(1, 1, 1);
+        }
+
+        50% {
+            transform: scale3d(0.95, 0.95, 0.95);
+        }
+
+        100% {
+            transform: scale3d(1, 1, 1);
+        }
+    }
+
+    .block4-1-all {
+        scale: 0.8;
+        position: absolute;
+        margin-top: -547px;
+        margin-left: -127px;
+    }
+
+    .block4-1 {
+        scale: 0.7;
+        position: absolute;
+        margin-top: 72px;
+        margin-left: 150px;
+        opacity: 1;
+    }
+
+    .block4-1_1 {
+        position: absolute;
+        scale: 0.7;
+        position: absolute;
+        margin-top: 72px;
+        margin-left: 150px;
+        opacity: 0;
+    }
+
+    .block4-1:hover {
+        opacity: 0;
+    }
+
+    .block4-1_1:hover {
+        opacity: 1;
+    }
+
+    .block4-2img {
+        width: 504px;
+        height: 582px;
+        display: block;
+        position: relative;
+        background: url('./images/block4-2.svg');
+    }
+
+    .block4-2 {
+        scale: 0.7;
+        width: 504px;
+        height: 582px;
+        position: absolute;
+        margin-top: -578px;
+        margin-left: -81px;
+        z-index: -2;
+        animation: block4-2 5s linear infinite;
+    }
+
+    .images {
+        animation: images 1.5s steps(1) infinite;
+    }
+
+    @keyframes images {
+        0% {
+            background-position: 0px top;
+        }
+
+        15% {
+            background-position: -504px top;
+        }
+
+        30% {
+            background-position: -1008px top;
+        }
+
+        45% {
+            background-position: -1512px top;
+        }
+
+        60% {
+            background-position: -2016px top;
+        }
+
+        75% {
+            background-position: -2520px top;
+        }
+    }
+
+    /* тепло не только за печкой */
+    .text_oven {
+        width: 100%;
+        z-index: 2;
+        margin-top: -72px;
+    }
+
+    /* маленькие блоки */
+
+    .blocks {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 52px;
+        justify-content: space-around;
+    }
+
+    .block5 {
+        width: 240px;
+        height: 240px;
+        display: block;
+        position: relative;
+        background: url('./images/block5_yellow.svg');
+    }
+
+    .block5_yellow {
+        width: 240px;
+        height: 240px;
+        animation: block5_yellow 5s linear infinite;
+    }
+
+    .yelllow {
+        animation: yelllow 1.5s steps(1) infinite;
+    }
+
+    @keyframes yelllow {
+        0% {
+            background-position: 0px top;
+        }
+
+        20% {
+            background-position: -240px top;
+        }
+
+        40% {
+            background-position: -480px top;
+        }
+
+        60% {
+            background-position: -720px top;
+        }
+
+        80% {
+            background-position: -960px top;
+        }
+    }
+
+    .block9-1 {
+        width: 231px;
+        height: 240px;
+        display: block;
+        position: relative;
+        background: url('./images/block9-1_purple.svg');
+    }
+
+    .block6 {
+        width: 240px;
+        height: 247px;
+        display: block;
+        position: relative;
+        background: url('./images/block6_blue.svg');
+    }
+
+    .block6_blue {
+        width: 240px;
+        height: 247px;
+        animation: block6_blue 3s linear infinite;
+    }
+
+    .bllue {
+        animation: bllue 2s steps(1) infinite;
+    }
+
+    @keyframes bllue {
+        0% {
+            background-position: 0px top;
+        }
+
+        40% {
+            background-position: -240px top;
+        }
+
+        80% {
+            background-position: -480px top;
+        }
+    }
+
+    .block5-1 {
+        width: 240px;
+        height: 240px;
+        display: block;
+        position: relative;
+        background: url('./images/block5-1_yellow.svg');
+    }
+
+    .block5-1_yellow {
+        width: 240px;
+        height: 240px;
+        animation: block5-1_yellow 5s linear infinite;
+    }
+
+    .yellllow {
+        animation: yellllow 1.5s steps(1) infinite;
+    }
+
+    @keyframes yellllow {
+        0% {
+            background-position: 0px top;
+        }
+
+        20% {
+            background-position: -240px top;
+        }
+
+        40% {
+            background-position: -480px top;
+        }
+
+        60% {
+            background-position: -720px top;
+        }
+
+        80% {
+            background-position: -960px top;
+        }
+    }
+
+    .block7 {
+        width: 240px;
+        height: 248px;
+        display: block;
+        position: relative;
+        background: url('./images/block7_blue_purple.svg');
+    }
+
+    .block7_blue_purple {
+        width: 240px;
+        height: 248px;
+        animation: block7_blue_purple 5s linear infinite;
+    }
+
+    .blue_purple {
+        animation: blue_purple 1.5s steps(1) infinite;
+    }
+
+    @keyframes blue_purple {
+        0% {
+            background-position: 0px top;
+        }
+
+        20% {
+            background-position: -240px top;
+        }
+
+        40% {
+            background-position: -480px top;
+        }
+
+        60% {
+            background-position: -720px top;
+        }
+
+        80% {
+            background-position: -960px top;
+        }
+    }
+
+    .block5-2 {
+        width: 240px;
+        height: 240px;
+        display: block;
+        position: relative;
+        background: url('./images/block5-2_yellow.svg');
+    }
+
+    .block5-2_yellow {
+        width: 240px;
+        height: 240px;
+        animation: block5-2_yellow 5s linear infinite;
+    }
+
+    .yelllllow {
+        animation: yelllllow 4s steps(1) infinite;
+    }
+
+    @keyframes yelllllow {
+        0% {
+            background-position: 0px top;
+        }
+
+        10% {
+            background-position: -240px top;
+        }
+
+        20% {
+            background-position: -480px top;
+        }
+
+        30% {
+            background-position: -720px top;
+        }
+
+        40% {
+            background-position: -960px top;
+        }
+
+        50% {
+            background-position: -1200px top;
+        }
+
+        60% {
+            background-position: -1440px top;
+        }
+
+        70% {
+            background-position: -1680px top;
+        }
+
+        80% {
+            background-position: -1920px top;
+        }
+
+        90% {
+            background-position: -2160px top;
+        }
+    }
+
+    .block6-1_blue_all {
+        max-width: 240px;
+        max-height: 240px;
+    }
+
+    .block6-1-1_blue {
+        position: absolute;
+        margin-top: 98px;
+        margin-left: -243px;
+        animation: block6-1-1_blue 3s linear infinite;
+    }
+
+    @keyframes block6-1-1_blue {
+        from {
+            transform: rotate(0deg);
+        }
+
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    .block8 {
+        width: 240px;
+        height: 240px;
+        display: block;
+        position: relative;
+        background: url('./images/block8_pink.svg');
+    }
+
+    .block8_pink {
+        width: 240px;
+        height: 240px;
+        animation: block8_pink 5s linear infinite;
+    }
+
+    .pinkk {
+        animation: pinkk 4s steps(1) infinite;
+    }
+
+    @keyframes pinkk {
+        0% {
+            background-position: 0px top;
+        }
+
+        20% {
+            background-position: -240px top;
+        }
+
+        40% {
+            background-position: -480px top;
+        }
+
+        60% {
+            background-position: -720px top;
+        }
+
+        80% {
+            background-position: -960px top;
+        }
+    }
+
+    .block8-1_pink_all {
+        max-width: 240px;
+        max-height: 240px;
+    }
+
+    .block8-1-1_pink {
+        position: absolute;
+        margin-top: 122px;
+        margin-left: -239px;
+        animation: block8-1-1_pink 3s linear infinite;
+    }
+
+    @keyframes block8-1-1_pink {
+        from {
+            transform: rotate(0deg);
+        }
+
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    .block8-1-2_pink {
+        position: absolute;
+        margin-left: -116px;
+        animation: block8-1-2_pink 3s linear infinite;
+    }
+
+    @keyframes block8-1-2_pink {
+        from {
+            transform: rotate(0deg);
+        }
+
+        to {
+            transform: rotate(-360deg);
+        }
+    }
+
+    .block6_1 {
+        width: 240px;
+        height: 240px;
+        display: block;
+        position: relative;
+        background: url('./images/block6_blue_j.svg');
+    }
+
+    .block6_1_blue_j {
+        width: 240px;
+        height: 240px;
+        animation: block6_1_blue_j 5s linear infinite;
+    }
+
+    .blue_j {
+        animation: blue_j 2s steps(1) infinite;
+    }
+
+    @keyframes blue_j {
+        0% {
+            background-position: 0px top;
+        }
+
+        40% {
+            background-position: -240px top;
+        }
+
+        80% {
+            background-position: -480px top;
+        }
+    }
+
+    .block8-2 {
+        width: 240px;
+        height: 240px;
+        display: block;
+        position: relative;
+        background: url('./images/block8-2_pink.svg');
+    }
+
+    .block8-2_pink {
+        width: 240px;
+        height: 240px;
+        animation: block8-2_pink 5s linear infinite;
+    }
+
+    .pinkkk {
+        animation: pinkkk 2s steps(1) infinite;
+    }
+
+    @keyframes pinkkk {
+        0% {
+            background-position: 0px top;
+        }
+
+        20% {
+            background-position: -240px top;
+        }
+
+        40% {
+            background-position: -480px top;
+        }
+
+        60% {
+            background-position: -720px top;
+        }
+
+        80% {
+            background-position: -960px top;
+        }
+    }
+
+    .block9 {
+        width: 231px;
+        height: 240px;
+        display: block;
+        position: relative;
+        background: url('./images/block9_purple.svg');
+    }
+
+    .block9_purple {
+        width: 231px;
+        height: 240px;
+        animation: block9_purple 5s linear infinite;
+    }
+
+    .purpllle {
+        animation: purpllle 2s steps(1) infinite;
+    }
+
+    @keyframes purpllle {
+        0% {
+            background-position: 0px top;
+        }
+
+        15% {
+            background-position: -231px top;
+        }
+
+        30% {
+            background-position: -462px top;
+        }
+
+        45% {
+            background-position: -693px top;
+        }
+
+        60% {
+            background-position: -924px top;
+        }
+
+        75% {
+            background-position: -1155px top;
+        }
+    }
+
+    .block9-1_purple {
+        width: 231px;
+        height: 240px;
+        animation: block9-1_purple 7s linear infinite;
+    }
+
+    .purplle {
+        animation: purplle 2s steps(1) infinite;
+    }
+
+    @keyframes purplle {
+        0% {
+            background-position: 0px top;
+        }
+
+        15% {
+            background-position: -231px top;
+        }
+
+        30% {
+            background-position: -462px top;
+        }
+
+        45% {
+            background-position: -693px top;
+        }
+
+        60% {
+            background-position: -924px top;
+        }
+
+        75% {
+            background-position: -1155px top;
+        }
+
+        90% {
+            background-position: -1386px top;
+        }
+    }
+
+    /* не прячься */
+    .dont-k {
+        width: 100%;
+        height: 170px;
+        overflow: hidden;
+        position: relative;
+
+    }
+
+    .dont {
+        /* scale: 0.5; */
+        animation: dont 5s linear infinite;
+        position: absolute;
+        height: 170px;
+        width: 1916px;
+    }
+
+    @keyframes dont {
+        0% {
+            transform: translate(0, 0);
+        }
+
+        100% {
+            transform: translate(-100%, 0)
+        }
+    }
+
+    /* стили распустившегося свитера */
+    .sweater {
+        width: 100%;
+        height: 304px;
+        display: block;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+
+        background: url('./images/www.svg');
+    }
+
+    .loose_sweater {
+        height: 304px;
+        margin: 0px;
+        z-index: -1;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        animation: loose_sweater 10s linear infinite;
+
+    }
+
+    .loose {
+        animation: loose 3s steps(1) infinite;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes loose {
+        0% {
+            background-position: 0px top;
+        }
+
+        15% {
+            background-position: -1472px top;
+        }
+
+        30% {
+            background-position: -2944px top;
+        }
+
+        45% {
+            background-position: -4416px top;
+        }
+
+        60% {
+            background-position: -5888px top;
+        }
+
+        75% {
+            background-position: -7360px top;
+        }
+
+        90% {
+            background-position: -8832px top;
+        }
+    }
+
+    /* футер */
+    .footer {
+        width: 100%;
+        margin: 0 0 0 0;
+        background-color: #51301C;
+        padding: 10px 13px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 346px;
+    }
+
+    .footer_text {
+        font-size: 18px;
+    }
+
+    .footer_img {
+        margin: 0 0 0 0;
+    }
+}
